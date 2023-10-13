@@ -1,0 +1,140 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS (and SCSS, if configured) file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+body {
+   background-color: rgb(25, 25, 25);
+   color: white;
+   margin: 0;
+}
+
+canvas {
+
+   display: block;
+   position: fixed;
+   z-index: -1;
+   top:0;
+   left:0;
+   height: 100vh;
+}
+
+#nav {
+   z-index: 1;
+   position: sticky;
+   top: 0;
+   left: 0;
+   padding: 0 10px;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: flex-start ;
+   background-color: rgb(25, 25, 25);
+   color: white;
+   padding: 5px 5vw 5px 15px;
+}
+
+.group {
+   list-style: none;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   font-size: 18px;
+   width: 100%;
+}
+
+a{
+   text-decoration: none;
+   color: white;
+}
+
+.logo{
+   height: 50px;
+}
+
+.main_card{
+   /* display: flex; */
+   flex-direction: column;
+
+}
+
+.chara{
+   height: 90vh;
+   padding: 0  50px;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-around;
+}
+
+
+
+.chara_div{
+   position: relative;
+   display: flex;
+   /* align-items: flex-end; */
+   height: 98%;
+}
+
+.in_img{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: absolute;
+   top: 63vh;
+   left: 0.2vw;
+   height: 20vh;
+   width: 20vw;
+   background-color: rgba(255, 255, 255, 0.5);
+   border-radius: 20px;
+}
+.chara_name{
+   width: 21vw;
+}
+
+.leit{
+   background-color: #6F919A;
+}
+
+.lita{
+   background-color: #DB2123;
+}
+
+.lotto {
+   background-color: #3A6840;
+}
+
+.latte{
+   background-color: #FAD060;
+}
+
+.card{
+   margin: 20px 2.5vw;
+   height: 85vh;
+   width: 95vw;
+   border-radius: 10px;
+}
+
+.card2{
+   background-color: rgba(111, 145, 154,0.7);
+}
+.card3{
+   background-color: rgba(219, 33, 35,0.7);
+}
+.card4{
+   background-color: rgba(58, 104, 64,0.7);
+}
+.card5{
+   background-color: rgba(250, 208, 96,0.7);
+}

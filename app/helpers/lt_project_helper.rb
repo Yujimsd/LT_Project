@@ -1,0 +1,2 @@
+module LtProjectHelper
+end
